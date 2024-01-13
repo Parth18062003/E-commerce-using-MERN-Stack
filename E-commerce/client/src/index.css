@@ -1,0 +1,269 @@
+.navbar-heading {
+  background-color: rgb(237, 237, 237);
+}
+
+.profile-btn button {
+  background-color: transparent;
+  margin-left: 50%;
+}
+
+.logo a:link,a:visited {
+  color: rgb(53, 53, 53);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar input,.search-bar button {
+  height: 60%;
+}
+
+.navbar-links {
+  height: 10vh;
+}
+
+.navbar-links a:link {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.navbar-links a.active {
+  font-weight: 450; 
+}
+
+.active-dropdown {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 450;
+}
+
+.navbar-nav .nav-link::after {
+  content: none !important;
+}
+
+
+.navbar-links {
+  box-shadow: 0 2px 1px -1px rgb(227, 227, 227);
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown {
+  color: rgb(53, 53, 53);
+  text-decoration: none;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.nav-img {
+  width: 80%;
+}
+
+.footer {
+  background-color: rgb(237, 237, 237);
+}
+
+.footer-links a:link, a:visited {
+  text-decoration: none;
+}
+
+.footer-links a:hover{
+  color: rgb(5, 5, 5);
+  text-decoration: underline;
+}
+
+.footer-icons a:hover {
+  font-size: 3vh;
+}
+
+#cards a:link, a:visited {
+  color: rgb(25, 25, 25);
+}
+
+#cards h5 {
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: -8px;
+  margin-left: 0;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(33, 32, 32);
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+}
+
+.card {
+  position: relative;
+  margin: 5px -30px;
+}
+
+.slick-next {
+  right: 2% !important;
+  z-index: 1;
+}
+
+.next {
+  width: 2em;
+  height: 2em;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.prev {
+  width: 2em;
+  height: 2em;
+  background-color: transparent;
+  border: none;
+  left: -0.5% !important;
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.card-title {
+  margin-left: 1em;
+  text-transform: capitalize;
+}
+
+#sizecontainer button {
+  width: 4em;
+  height: 3em;
+  border-radius: 0;
+}
+
+#cartbtn {
+  width: 100%;
+}
+
+.product-img:hover {
+  cursor: pointer;
+}
+
+#formbox1 {
+  height: 30em;
+  border: 1px groove rgb(33, 32, 32);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(233, 233, 233)
+}
+
+#formbox1 h2 {
+  font-family: sans-serif;
+}
+
+#formbox1 input {
+  width: 100%;
+}
+
+#formbox2 {
+  border: 1px groove rgb(33, 32, 32);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(233, 233, 233)   
+}
+
+#formbox2 button {
+  margin-bottom: 2em;
+}
+
+.form-btn button {
+  width: 10em;
+  height: 3em;
+}
+
+.sizebtn button {
+  width: 3em;
+}
+
+.sizebtn button:hover {
+  background-color: rgb(215, 215, 215);
+}
+
+.displaytitle {
+  text-transform: capitalize;
+}
+
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb:after {
+  content: '/';
+  margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: rgb(46, 46, 46);
+}
+
+.breadcrumbs .crumb .active {
+  text-decoration: none; 
+  cursor: default; 
+  color: #333; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+} 
+
+.page-link, .page-link:hover{
+  border: none;
+  border-radius: 0;
+  color: rgb(50, 50, 50);
+}
+
+.page-item button {
+  border-radius: 0;
+}
+
+.page-link:hover {
+  border-bottom: 1px solid rgb(42, 42, 42);
+}
+
+.page-item.active .page-link {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: #2e2e2e; 
+  border-bottom: 1px solid rgb(42, 42, 42);
+}
+
+.pagination button {
+  background-color: transparent;
+}
+
+.form {
+  padding: 2.5em;
+  border: 1px solid rgb(42, 41, 41);
+}
+
+.form button {
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  color: rgb(238, 237, 237);
+}
